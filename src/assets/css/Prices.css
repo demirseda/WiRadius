@@ -1,0 +1,271 @@
+.prices_page {
+    padding: 100px 0px;
+    width: var(--width);
+    margin: auto;
+  }
+  .packet_padding{
+    padding: 50px 30px 50px 30px;
+  }
+  
+  .prices_page .prices_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prices_page .prices_header h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .prices_page .prices_header p {
+    color: #7d7d7d;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .prices_page .prices_body {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+  }
+  
+  .prices_page .prices_body .packet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin: 0px 10px;
+    box-shadow: 0 2px 14px rgb(229 229 255 / 66%);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .prices_page .prices_body .packet .packet_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .prices_page .prices_body .packet .packet_header .tl_icon {
+    font-size: 15px;
+  }
+  
+  .prices_page .prices_body .packet .packet_content {
+    margin: 40px 0px;
+  }
+  
+  .prices_page .prices_body .packet .packet_content ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: start;
+  }
+  
+  .prices_page .prices_body .packet .packet_content ul li span {
+    line-height: 1.8;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_header .packet_icon {
+    border: 1px solid #E7F0FD;
+    border-radius: 50%;
+    background-color: #E7F0FD;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_header span i {
+    font-size: 30px;
+    color: #0569E6;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_header h4 {
+    color: #0569E6;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_header .price {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0569E6;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_content ul li i {
+    color: #0569E6;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-right: 10px;
+  }
+  
+  .prices_page .prices_body .packet1 .packet_footer .btn_TryForFree {
+    border: 1px solid #E7F0FD;
+    padding: 10px 15px;
+    background-color: #E7F0FD;
+    color: #0569E6;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_header .packet_icon {
+    border: 1px solid #EEEEFC;
+    border-radius: 50%;
+    background-color: #EEEEFC;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_header span i {
+    font-size: 30px;
+    color: #615FE6;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_header h4 {
+    color: #615FE6;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_header .price {
+    font-size: 30px;
+    font-weight: 600;
+    color: #615FE6;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_content ul li i {
+    color: #615FE6;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-right: 10px;
+  }
+  
+  .prices_page .prices_body .packet2 .packet_footer .btn_TryForFree {
+    border: 1px solid #EEEEFC;
+    padding: 10px 15px;
+    background-color: #EEEEFC;
+    color: #615FE6;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  
+  /*.prices_page .prices_body .packet3 {
+    position: relative;
+    padding-top: 70px;
+  }*/
+  
+  .prices_page .prices_body .packet3 .more_populer {
+    /*position: absolute;
+    top: 0px;*/
+    width: 100%;
+    background-color: #fff7e6;
+    color: #FFB400;
+    font-weight: 600;
+    padding: 10px;
+  
+  }
+  
+  .prices_page .prices_body .packet3 .packet_header .packet_icon {
+    border: 1px solid #FFF7E6;
+    border-radius: 50%;
+    background-color: #FFF7E6;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .prices_page .prices_body .packet3 .packet_header span i {
+    font-size: 30px;
+    color: #FFB400;
+  }
+  
+  .prices_page .prices_body .packet3 .packet_header h4 {
+    color: #FFB400;
+  }
+  
+  .prices_page .prices_body .packet3 .packet_header .price {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFB400;
+  }
+  
+  .prices_page .prices_body .packet3 .packet_content ul li i {
+    color: #FFB400;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 2px;
+    padding-right: 10px;
+  }
+  
+  .prices_page .prices_body .packet3 .packet_footer .btn_TryForFree {
+    border: 1px solid #FFF7E6;
+    padding: 10px 15px;
+    background-color: #FFF7E6;
+    color: #FFB400;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .packet_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+  }
+  .packet1, .packet2, .packet3{
+    padding: 50px 30px 50px 30px;
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .prices_page {
+      width: var(--small-screen-width) !important;
+    }
+  }
+  @media screen and (max-width: 1000px){
+    .prices_page{
+      overflow-x: scroll;
+      overflow-y: hidden;
+      padding-bottom: 0px !important;
+      margin: 0px 15px;
+      margin-bottom: 100px;
+    }
+    .prices_page .prices_body{
+      width: max-content !important;
+      padding: 10px !important;
+      justify-content: start !important;
+    }
+    .prices_page .prices_body .packet{
+      margin-left: 0px !important;
+      padding: 10px !important;
+      width: 22% !important;
+    }
+    .prices_page::-webkit-scrollbar,
+    .prices_body::-webkit-scrollbar {
+        height: 5px;
+        transition: all .5s ease;
+    }
+    .prices_page::-webkit-scrollbar-track,
+    .prices_body::-webkit-scrollbar-track  {
+        height: 5px;
+        background: #e9e9e9;
+    }
+   /* .packet_padding,
+    .prices_page .prices_body .packet.packet3{
+      padding: 0px !important;
+    }*/
+    .packet_padding,
+    .prices_body{
+      padding: 10px !important;
+    }
+  }
+  

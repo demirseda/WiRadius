@@ -1,0 +1,101 @@
+.aboutUs{
+
+    padding: 100px 0px;
+}
+.aboutUs_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgba(145, 186, 210, 0.35) 0%, rgba(172, 216, 241, 0) 0%, rgba(172, 216, 241, 0.35) 100%), #FFFFFF;
+    padding: 40px 15vw;
+}
+.aboutUs_header_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutUs_header_left h4{
+    font-size: 40px;
+}
+.aboutUs_header_left .cetvel_slogan{
+    font-size: 18px;
+}
+.aboutUs_header_left .aboutUs_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-color);
+}
+.aboutUs_header_right{
+    width: 40%;
+}
+.aboutUs_header_right img{
+    width: 100%;
+}
+.aboutUs_body{
+    padding: 100px 15vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cetvel_mission{
+    width: 50%;
+    margin-right: 50px;
+}
+.cetvel_mission_header,
+.cetvel_vision_header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cetvel_vision{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.cetvel_mission i,
+.cetvel_vision i{
+    font-size: 40px;
+    margin-right: 10px;
+    color: #6ec3f3;
+}
+.cetvel_mission_header h4,
+.cetvel_vision_header h4{
+    font-size: 25px;
+}
+.cetvel_mission_content,
+.cetvel_vision_content{
+    padding: 0px 50px;
+}
+.cetvel_mission_content p,
+.cetvel_vision_content p{
+    color: var(--text-color);
+}
+@media screen and (max-width: 1000px){
+    .aboutUs_header{
+        flex-direction: column-reverse;
+        padding: 25px !important;
+    }
+    .aboutUs_header_left,
+    .aboutUs_header_right {
+        width: 100% !important;
+    }
+    .aboutUs_body{
+        flex-direction: column;
+        padding: 25px !important;
+    }
+    .cetvel_mission,
+    .cetvel_vision{
+        width: 100% !important;
+        margin-right: 0px !important;
+        margin-top: 25px;
+    }
+    .cetvel_mission_content,
+    .cetvel_vision_content{
+        padding-right: 25px !important;
+        text-align: justify;
+    }
+
+
+}

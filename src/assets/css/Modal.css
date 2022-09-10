@@ -1,0 +1,81 @@
+.modal, .overlay{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.overlay{
+    background: rgba(49,49,49,0.8);
+}
+.modal_content{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    line-height: 1.4;
+    padding: 14px 28px;
+    background-color: var(--white);
+    border-radius: 6px;
+    width: 35%;
+    transition: all .5s ease;
+    animation: modalUp 1s;
+}
+.close_modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+.modal_header{
+    margin: 8px 0px;
+}
+.modal_content .modal_header h4{
+    color: var(--c-black);
+    font-size: 20px;
+}
+.modal_content .close_modal{
+    font-size: 30px;
+}
+.modal_content p{
+    color: #828894;
+    margin-bottom: 25px;
+}
+.modal_content form .modal_block{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.modal_content form .modal_block label{
+    color: var(--label-color);
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.modal_content form .modal_block input{
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 12px;
+}
+.modal_content form .submit_btn{
+    margin-top: 25px;
+}
+
+@keyframes modalUp{
+    0%{
+        transform: translateY(666px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 400px){
+    .modal_content{
+        top: 20% !important;
+        left: 3% !important;
+        width: 76% !important;
+    }     
+}
